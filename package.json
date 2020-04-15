@@ -1,0 +1,14 @@
+{
+  "name": "challenge-analyzer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/bino98/challenge-analyzer",
+  "author": "Takafumi Yamamoto <bino98@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "analyse": "node index.js"
+  },
+  "dependencies": {
+    "botkit": "^4.8.1"
+  }
+}
