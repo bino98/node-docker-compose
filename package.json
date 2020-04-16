@@ -1,8 +1,8 @@
 {
-  "name": "challenge-analyzer",
+  "name": "node-docker-compose",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "https://github.com/bino98/challenge-analyzer",
+  "repository": "https://github.com/bino98/node-docker-compose",
   "author": "Takafumi Yamamoto <bino98@gmail.com>",
   "license": "MIT",
   "scripts": {
