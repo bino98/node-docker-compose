@@ -13,7 +13,8 @@ $ docker-compose build
 
 ## Basic Usage
 
-デーモン化されてます
+- デーモン化されてます。
+- ファイルを更新すると、再実行します。
 
 ```bash
 $ docker-compose up
