@@ -1,14 +1,10 @@
-# Challenge Analyzer
-
-Slackに報告されたチャレンジの分析を行ってくれるSlackBot
+# node-docker-compose
 
 ## Installation
 
-`clientId` と `clientSecret` を取得する。 [参考](https://botkit.ai/docs/v4/provisioning/slack-events-api.html)
-
 ```bash
 $ cp .env.sample .env
-$ vi .env # 取得したclientIdとclientSecretを.envに記述
+$ vi .env # 必要な環境変数をセットする
 ...
 $ docker-compose build
 ```
@@ -19,4 +15,11 @@ $ docker-compose build
 
 ```bash
 $ docker-compose up
+```
+
+### Install npm package
+
+```bash
+$ docker-compose run --rm app /bin/bash
+$ yarn add <xxx>
 ```

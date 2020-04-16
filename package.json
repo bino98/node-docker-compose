@@ -6,9 +6,7 @@
   "author": "Takafumi Yamamoto <bino98@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "analyse": "node index.js"
+    "start": "node index.js"
   },
-  "dependencies": {
-    "botkit": "^4.8.1"
-  }
+  "dependencies": {}
 }
