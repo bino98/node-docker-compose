@@ -1,5 +1,7 @@
 # node-docker-compose
 
+docker-composeでnodeアプリケーションをサクッと作れるやつ
+
 ## Installation
 
 ```bash
